@@ -13,6 +13,9 @@ st.set_page_config(
 )
 
 st.markdown("""
+div[data-testid="stMetric"] * {
+    color: #17243b !important;
+}
 <style>
 .stApp {background: #f5f7fb; color: #17243b;}
 .block-container {padding-top: 2rem; padding-bottom: 3rem;}
