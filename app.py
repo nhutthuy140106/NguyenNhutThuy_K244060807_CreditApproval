@@ -21,48 +21,50 @@ div[data-testid="stMetric"] * {
     background: #f6f8fc;
 }
 .block-container {
-    max-width: 1180px;
+    max-width: 1080px;
     padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
-h1, h2, h3 {
-    color: #17243b;
-}
-h2, h3 {
-    margin-top: 1.5rem;
+section[data-testid="stSidebar"] {
+    border-right: 0;
 }
 div[data-testid="stMetric"] {
     background: #ffffff;
-    border: 1px solid #dde5f0;
-    border-radius: 16px;
-    padding: 18px 20px;
-    box-shadow: 0 4px 16px rgba(23, 36, 59, 0.05);
+    border: 1px solid #e1e7f0;
+    border-radius: 18px;
+    padding: 20px 22px;
+    box-shadow: 0 8px 24px rgba(23, 36, 59, .06);
 }
 div[data-testid="stMetric"] * {
     color: #17243b !important;
 }
-section[data-testid="stSidebar"] {
-    border-right: 1px solid #d9e2ef;
-}
 div[data-testid="stForm"] {
     background: #ffffff;
-    border: 1px solid #dde5f0;
-    border-radius: 16px;
+    border: 1px solid #e1e7f0;
+    border-radius: 18px;
     padding: 24px;
+    box-shadow: 0 8px 24px rgba(23, 36, 59, .05);
+}
+div[data-testid="stNumberInput"] input,
+div[data-testid="stSelectbox"] > div {
+    border-radius: 10px;
 }
 .hero {
     background: linear-gradient(115deg, #172554, #4338ca);
-    border-radius: 18px;
-    padding: 28px 32px;
-    margin-bottom: 24px;
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin-bottom: 30px;
+    box-shadow: 0 14px 32px rgba(44, 46, 142, .16);
 }
 .hero h1 {
     color: #ffffff;
+    font-size: 2.7rem;
     margin: 0;
 }
 .hero p {
     color: #e0e7ff;
-    margin-bottom: 0;
+    font-size: 1.05rem;
+    margin: 8px 0 0;
 }
 </style>
 """, unsafe_allow_html=True)
