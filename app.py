@@ -11,9 +11,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
-if page == "Tổng quan":
-  st.markdown("""
+st.markdown("""
 <style>
 .stApp { background: #f6f8fc; }
 
