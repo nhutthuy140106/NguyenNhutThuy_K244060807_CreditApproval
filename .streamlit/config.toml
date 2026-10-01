@@ -2,10 +2,12 @@
 base = "light"
 primaryColor = "#4f46e5"
 backgroundColor = "#f6f8fc"
-secondaryBackgroundColor = "#ffffff"
+secondaryBackgroundColor = "#edf2f9"
 textColor = "#17243b"
 
 [theme.sidebar]
-backgroundColor = "#e9eef8"
-secondaryBackgroundColor = "#ffffff"
-textColor = "#17243b"
+backgroundColor = "#172554"
+secondaryBackgroundColor = "#243768"
+textColor = "#f4f7ff"
+primaryColor = "#67e8f9"
+linkColor = "#a5f3fc"
