@@ -17,30 +17,53 @@ div[data-testid="stMetric"] * {
     color: #17243b !important;
 }
 <style>
-.stApp {background: #f5f7fb; color: #17243b;}
-.block-container {padding-top: 2rem; padding-bottom: 3rem;}
-h1, h2, h3 {color: #17243b;}
-div[data-testid="stMetric"] {
-    background: white;
-    border: 1px solid #e4e9f2;
-    border-radius: 16px;
-    padding: 18px;
+.stApp {
+    background: #f6f8fc;
 }
-[data-testid="stSidebar"] {background: #edf1fa;}
+.block-container {
+    max-width: 1180px;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+h1, h2, h3 {
+    color: #17243b;
+}
+h2, h3 {
+    margin-top: 1.5rem;
+}
+div[data-testid="stMetric"] {
+    background: #ffffff;
+    border: 1px solid #dde5f0;
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 16px rgba(23, 36, 59, 0.05);
+}
+div[data-testid="stMetric"] * {
+    color: #17243b !important;
+}
+section[data-testid="stSidebar"] {
+    border-right: 1px solid #d9e2ef;
+}
 div[data-testid="stForm"] {
-    background: white;
+    background: #ffffff;
+    border: 1px solid #dde5f0;
     border-radius: 16px;
     padding: 24px;
 }
 .hero {
-    background: linear-gradient(120deg, #172554, #4338ca);
-    color: white;
-    border-radius: 20px;
+    background: linear-gradient(115deg, #172554, #4338ca);
+    border-radius: 18px;
     padding: 28px 32px;
     margin-bottom: 24px;
 }
-.hero h1 {color: white; margin: 0;}
-.hero p {color: #dbeafe; margin-bottom: 0;}
+.hero h1 {
+    color: #ffffff;
+    margin: 0;
+}
+.hero p {
+    color: #e0e7ff;
+    margin-bottom: 0;
+}
 </style>
 """, unsafe_allow_html=True)
 
