@@ -12,10 +12,13 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("""
-div[data-testid="stMetric"] * {
-    color: #17243b !important;
-}
+if page == "Tổng quan":
+    st.markdown("""
+    <div class="hero">
+        <h1>Credit Lab</h1>
+        <p>Khám phá dữ liệu · Đánh giá mô hình · Thử nghiệm dự đoán</p>
+    </div>
+    """, unsafe_allow_html=True)
 <style>
 .stApp {
     background: #f6f8fc;
