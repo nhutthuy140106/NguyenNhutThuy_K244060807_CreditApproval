@@ -13,24 +13,18 @@ st.set_page_config(
 )
 
 if page == "Tổng quan":
-    st.markdown("""
-    <div class="hero">
-        <h1>Credit Lab</h1>
-        <p>Khám phá dữ liệu · Đánh giá mô hình · Thử nghiệm dự đoán</p>
-    </div>
-    """, unsafe_allow_html=True)
+  st.markdown("""
 <style>
-.stApp {
-    background: #f6f8fc;
-}
+.stApp { background: #f6f8fc; }
+
 .block-container {
     max-width: 1080px;
     padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
-section[data-testid="stSidebar"] {
-    border-right: 0;
-}
+
+section[data-testid="stSidebar"] { border-right: 0; }
+
 div[data-testid="stMetric"] {
     background: #ffffff;
     border: 1px solid #e1e7f0;
@@ -38,9 +32,9 @@ div[data-testid="stMetric"] {
     padding: 20px 22px;
     box-shadow: 0 8px 24px rgba(23, 36, 59, .06);
 }
-div[data-testid="stMetric"] * {
-    color: #17243b !important;
-}
+
+div[data-testid="stMetric"] * { color: #17243b !important; }
+
 div[data-testid="stForm"] {
     background: #ffffff;
     border: 1px solid #e1e7f0;
@@ -48,10 +42,7 @@ div[data-testid="stForm"] {
     padding: 24px;
     box-shadow: 0 8px 24px rgba(23, 36, 59, .05);
 }
-div[data-testid="stNumberInput"] input,
-div[data-testid="stSelectbox"] > div {
-    border-radius: 10px;
-}
+
 .hero {
     background: linear-gradient(115deg, #172554, #4338ca);
     border-radius: 20px;
@@ -59,11 +50,13 @@ div[data-testid="stSelectbox"] > div {
     margin-bottom: 30px;
     box-shadow: 0 14px 32px rgba(44, 46, 142, .16);
 }
+
 .hero h1 {
     color: #ffffff;
     font-size: 2.7rem;
     margin: 0;
 }
+
 .hero p {
     color: #e0e7ff;
     font-size: 1.05rem;
